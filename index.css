@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .wrapper { /* bura headeri ve footeri elave etmek lazimdir? deqiq bilmirem, lazim olsa elave edersiz) */
+    width: 100%;
+    font-family: "Roboto";
+  }
+  .main-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-family: Roboto Slab;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.76px;
+    height: 93px;
+    /* yenede baxin ne elave etmek lazim olsa edin */
+  }
+  .logo{
+    height: 10.41vw;
+    padding-top: 30px;
+  }
+  .logo img {
+    width: 7.77vw;
+  }
+  .navbar{
+    display: flex; 
+  }
+  
+  .date-and-time{
+    display: flex;
+    gap: 0.3472222vw;
+    margin-right: 50px;
+  }
+  
+  .navbar img{
+    width: 1.527vw;
+    height: 1.458vw;/*21px*/; 
+  }
+  
+  .navbar p{
+    font-size: 1.3888vw/*20px*/;
+    font-weight: 400;
+  }
+  .how-to-watch-movie{
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    
+  }
+  .how-to-watch-movie h1{
+    width: 43.6111111vw;/*628*/
+    height: 13.1944444vw;/*190px*/
+    font-size: 5.555555vw;/*80px*/
+    margin-top: 30px;
+    line-height: 81.11px;
+    font-family: Roboto Slab;
+  }
+  .how-to-watch-movie p{
+    width: 28.75vw;/*414px*/
+    height: 62px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .how-to-watch-movie img{
+    width: 21.1111111vw;/*304px*/
+    height: 24.7222222vw;/*356px*/
+  }
+  #bluebox{
+    width: 483.63px;
+    height:200px;
+    border-radius: 5px;
+    background-color: #1e4681;
+    color: #fff;
+    font-size: 25px;
+    line-height: 32.5px;
+    font-weight: 400;
+    font-family: Roboto Slab;
+    padding: 20px;   
+    margin: 10px auto 160px;
+  }
+  #bluebox-author {
+    font-size: 20px;
+    text-align: right;
+    font-family: Roboto;
+  }
+  .second-paragraph{
+    padding: 120px 0;
+  }
+  
+  .about-course{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+  .about-course p{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 662px;
+    height: 374px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+  }
+  
+  .about-course img{
+    width: 21.8055556vw;/*314px*/
+    height: 21.875vw;/*315px*/
+  }
+  
+  .course_duration{ 
+    font-family: "Roboto Slab", serif; 
+    display: flex; 
+    padding: 0px 0px 60px 0px;
+    height: 400px; 
+    justify-content: space-between;
+    width: 90%; 
+    align-items: center; 
+  } 
+  .task_table{ 
+    width: 60%; 
+    display: flex; 
+    justify-content: space-around; 
+  } 
+  .task_table div{ 
+    width: 150px;
+  } 
+  .task_table h4{ 
+    font-size: 25px; 
+    font-weight: 700; 
+    line-height: 32px; 
+  } 
+  .task_table p{ 
+    font-size: 18px; 
+    line-height: 23px;
+    width: 170px;
+  } 
+  @media screen and (min-width: 992px) and (max-width: 1279) {
+    h2 {
+      font-size: 32px;
+      line-height: 32.44px;
+    }
+   .logo{
+      height: 90px;
+      margin-top: 22px;
+  }
+   .logo img {
+    width:  4.50486111vw;/*64.87px*/
+    height: 2.65486111vw;/*38.23px*/
+  }
+   .date-and-time{
+    margin-right: 25px;
+  }
+   .navbar img{
+    width: 0.884722222vw;/*12.74px*/
+    height: 0.844444444vw;/*12.16px*/
+  }
+   .navbar p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.8px;
+  }
+   .how-to-watch-movie{
+    height: 300px;
+    
+  }
+   .how-to-watch-movie h1{
+      width: 292.63px;
+      height: 88.53px;
+      font-size: 37px;
+      margin-top: 50px;
+      line-height: 37.51px;
+  }
+   .how-to-watch-movie p{
+      width: 264px;
+      height: 36px;
+      font-size: 12px;
+      line-height: 18px;
+  }
+  .how-to-watch-movie img{
+      width: 12.2270833vw;/*176.07px*/
+      height: 14.3180556vw;/*206.18px*/
+  }
+  #bluebox{
+    width: 280.11px;
+    height: 115.83px;
+    font-size: 14px;
+    border-radius: 2.9px;
+    line-height: 18.2px;
+    margin:  auto;
+    padding: 15px; 
+  }
+  
+  #bluebox-author {
+    font-size: 12px; 
+    line-height: 15.6px;
+  }
+  .about-course{
+    gap: 30px;
+  }
+  .about-course p{
+    font-size: 14px;
+    line-height: 21px;
+    width: 383.41px;
+    height: 216.61px;
+  }
+    
+  .about-course img{
+    width: 12.6291667vw;/*181.86px*/
+    height: 12.6694444vw;/*182.44px*/
+  }
+      
+  .big_cameraman img{ 
+    width: 9.32916667vw;/*134.34px*/ 
+    height: 12.33125vw;/*117.57px*/
+  } 
+  .task_table h4{ 
+    font-size: 15px; 
+    line-height: 19px; 
+    height: 25px;
+  } 
+  .task_table p{ 
+    font-size: 11px; 
+    line-height: 14px; 
+    width: 100px;
+  }  
+  .task_table div{ 
+    width: 86px; 
+  } 
+  .course_duration{
+    width: 87%;
+    height: 200px;
+  }  
+}
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  h2 {
+    width: 170.8px;
+    height: 43.34px;
+    font-size: 26px;
+    line-height: 26.36px;
+    font-weight: 700;
+  }
+  .logo img{
+    width: 52.19px;
+    height: 30.75px;
+    
+}
+.navbar{ 
+  margin-top: 70px;
+}
+.date-and-time{
+  margin-right: 7px;
+}
+.navbar img{
+  width:  10.25px;
+  height: 9.79px;
+}
+.navbar p{
+  font-size: 10px;
+  line-height: 11.5px;
+  width: 60.58px;
+  height: 14.91px;
+}
+.how-to-watch-movie{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+.how-to-watch-movie h1{
+  width: 363.72px;
+  height: 110.04px;
+  font-size: 37px;
+  margin-top: 20px;
+  line-height: 46.64px;
+}
+.how-to-watch-movie p{
+  width: 212.4px;
+  height: 28.96px;
+  font-size: 10px;
+  line-height: 15px;
+}
+.how-to-watch-movie img{
+  width:141.68px;
+  height: 175.1px;
+  margin-left: 200px;
+  
+}
+#bluebox{
+  width: 225.36px;
+  height: 93.19px;
+  font-size: 11px;
+  line-height: 14.3px;
+  margin: 70px 0px 50px 0px;
+  padding: 10px;   
+}
+#bluebox-author {
+  font-size: 10px; 
+  line-height: 13px;
+}
+.about-course{
+  flex-direction: column;
+  align-items: flex-start;
+  height: 400px;
+}
+.about-course p{
+font-size: 12px;
+line-height: 18px;
+width: 308.47px;
+height: 174.27px;
+}
+
+.about-course img{
+  width: 181.86px;
+  height: 182.44px;
+  margin: 20px 100px;
+  
+}
+.big_cameraman img{ 
+  display: none; 
+}
+
+.task_table div{ 
+  width: 150px; 
+  
+} 
+.task_table{ 
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+} 
+.task_table h4{ 
+  font-size: 12px; 
+  line-height: 15.6px; 
+} 
+.task_table p{ 
+  font-size: 10px; 
+  line-height: 13px; 
+  width: 100px;
+  height: 70px;
+}
+.course_duration{
+  justify-content: flex-start;
+  padding: 0;
+  width:400px;
+  height: 200px;
+  margin-top: 50px;
+}  
+}
+  
