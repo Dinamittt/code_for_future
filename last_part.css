@@ -236,6 +236,7 @@
     }
     .author{
       top: 0;
+      left: 20px;
     }
     .user-avatar{
         width: 80px;
