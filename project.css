@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.wrapper { /* bura headeri ve footeri elave etmek lazimdir? deqiq bilmirem, lazim olsa elave edersiz) */
+.wrapper { 
   width: 100%;
   font-family: "Roboto";
 }
@@ -161,7 +161,7 @@ h2 {
 }
 
 .what-to-learn {
-  width: 45.9vw; /*662px*/
+ /* width: 45.9vw; /*662px*/
   font-family: "Roboto";
   font-weight: 400;
   font-size: 1.6vw;/*24px*/
@@ -209,13 +209,16 @@ h2 {
 }
 
 .course-info-box{
-  font-family: "Roboto Slab", serif;
   width: 100%;
+}
+.course-info-box-inside{
+  width: 90%;
   margin: 0 auto;
 }
 .biography{
   height: 780px;
   background-color: #efefef;
+  font-family: "Roboto";
 }
 .biography h2{
   position: relative;
@@ -224,11 +227,13 @@ h2 {
   font-size: 55px;
   font-weight: 700;
   padding-bottom: 30px;
-  padding-left: 60px;
+  /*padding-left: 60px;*/
+  font-family: "Roboto Slab";
 }
 .biography h3{
   font-size: 30px;
   font-weight: 700;
+  font-family: "Roboto Slab";
 }
 .info-author{
   width: 54vw;
@@ -238,7 +243,6 @@ h2 {
   box-shadow: 0 0 5px  #888888 ;
   position: relative;
   top: 50px;
-  margin-left: 60px;
 }
 .info-author p{
   padding-top: 30px;
@@ -266,11 +270,13 @@ h2 {
   background-color: #9dc9c8;
   height: 780px;
   align-items: center;
-  padding-left: 30px;
+/*  padding-left: 30px;*/
+  font-family: "Roboto";
 }
 .adv h2{
   font-size: 55px;
   font-weight: 700;
+  font-family: "Roboto Slab";
 }
 .price{
   font-size: 25px;
@@ -284,10 +290,10 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 30px;
+ /* margin-left: 30px;*/
 }
 table{
-  width: 80%;
+  width: 90%;
 }
 th{
   font-size: 25px;
@@ -302,23 +308,26 @@ td{
 footer{
   height: 390px;
   background-color: black;
+  font-family: "Roboto";
 }
 footer p{
   display: inline-block;
   color: white;
 }
 .footer_box{
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
-}
+}/*
 footer article{
   position: relative;
   width: 90%;
   padding-top: 30px;
   margin: 0 auto;
-}
+}*/
 .social-media img{
   margin-right: 10px;
+  margin-top: 20px;
 }
 .version{
   position: relative;
@@ -351,10 +360,13 @@ footer article{
   font-weight: 400;
   line-height: 13.8px;
 }
+.how-to-watch-movie{
+  height: 300px;
+}
  .how-to-watch-movie h1{
     width: 35vw;/*292.63px*/
     font-size: 4.4vw;/*37px*/
-    line-height: 37.51px;/*46.64px*/
+    line-height: 37.51px;/*46.64px*/ 
 }
  .how-to-watch-movie p{
     width: 264px;
@@ -413,7 +425,7 @@ footer article{
   width: 86px; 
 } 
 .course_duration{
-  width: 87%;
+  width: 80%;
   height: 200px;
 }  
   
@@ -506,9 +518,9 @@ footer{
     width: 15px;
 }
 footer article{
-    display: block;
+    display: block;/*
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto;*/
     padding-top: 20px;
 }
 .footer_box{
@@ -563,8 +575,13 @@ footer article{
   flex-direction: column;
   height: 300px;
 }
-.how-to-watch-movie h1{
+.how-to-watch-movie h1{/*
   width: 363.72px;
+  height: 110.04px;
+  font-size: 37px;
+  margin-top: 20px;
+  line-height: 46.64px;*/
+  width: 100%;
   height: 110.04px;
   font-size: 37px;
   margin-top: 20px;
@@ -576,18 +593,21 @@ footer article{
   font-size: 10px;
   line-height: 15px;
 }
+.producer{
+  display: flex;
+  justify-content: flex-end;
+}
 .how-to-watch-movie img{
   width:141.68px;
   height: 175.1px;
-  margin-left: 200px;
-  
+  margin-left: 150px;
 }
 #bluebox{
   width: 225.36px;
   height: 93.19px;
   font-size: 11px;
   line-height: 14.3px;
-  margin: 70px 0px 50px 0px;
+  margin: 50px auto;
   padding: 10px;   
 }
 #bluebox-author {
@@ -603,15 +623,16 @@ footer article{
 .about-course p{
 font-size: 12px;
 line-height: 18px;
-width: 308.47px;
+width: 90%;/*308.47px*/
 height: 174.27px;
 }
 
 .about-course img{
   width: 181.86px;
-  height: 182.44px;
-  margin: 20px 100px;
-  
+  height: 182.44px;/*
+  margin: 20px 100px;*/
+  margin-top: 40px;
+  margin-left: 40px;
 }
 .big_cameraman img{ 
   display: none; 
@@ -622,10 +643,11 @@ height: 174.27px;
   
 } 
 .task_table{ 
-  width: 80%;
+  width: 100%;/*80%*/
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start; 
+  margin: 9 auto;/*0?*/
 } 
 .task_table h4{ 
   font-size: 12px; 
@@ -640,7 +662,7 @@ height: 174.27px;
 .course_duration{
   justify-content: flex-start;
   padding: 0;
-  width:400px;
+  width: 300px;/*200*/
   height: 200px;
   margin-top: 50px;
 }  
@@ -661,8 +683,8 @@ height: 174.27px;
     font-size: 12px;
   }
   
-  .what-to-learn {
-    width: 299px;
+  .what-to-learn {/*
+    width: 299px;*/
     font-size: 12px;
     line-height: 18px;
     margin-top: 20px;
@@ -714,13 +736,14 @@ height: 174.27px;
     height: 423px;
 }
 .biography h2{
-    font-size: 26px;
-    padding-left: 40px;
+  height: 62px;
+    font-size: 26px;/*
+    padding-left: 40px;*/
     text-align: left;
 }
 .info-author{
-    height: 55%;
-    margin-left: 15px;
+    height: 55%;/*
+    margin-left: 15px;*/
     width: 90%;
     max-width: 600px;
     display: flex;
@@ -754,9 +777,9 @@ height: 174.27px;
     width: 100%;
 }
 .adv article{ 
-    height: 248px;
+    height: 248px;/*
     margin: 0 auto;
-    width: 90%;
+    width: 90%;*/
 }
 .adv h2{
     font-size: 32px;
@@ -788,15 +811,16 @@ footer{
     width: 12px;
 }
 footer article{
+    width: 55%;/*
     padding-top: 20px;
-    width: 55%;
-    margin: 0 auto;
+    margin: 0 auto;*/
 }
 .footer_box{
     display: inline-block;
 }
 .social-media img{
     margin-right: 5px;
+    margin-top: 0;
     width: 19px;
     position: relative;
     bottom: 40px;
