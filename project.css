@@ -98,7 +98,7 @@ h2 {
   justify-content: space-between;
   }
 .about-course p{
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -168,7 +168,6 @@ h2 {
   margin-top: 50px;
   margin-bottom: 200px;
 }
-
 .course-program {
   display: flex;
   flex-wrap: wrap;
@@ -352,6 +351,10 @@ footer p{
   font-size: 12px;
   font-weight: 400;
   line-height: 13.8px;
+}
+.how-to-watch-movie{
+  height: 300px;
+  
 }
  .how-to-watch-movie h1{
     width: 35vw;/*292.63px*/
@@ -587,7 +590,7 @@ footer article{
   height: 93.19px;
   font-size: 11px;
   line-height: 14.3px;
-  margin: 70px 0px 50px 0px;
+  margin: 70px 0px 50px 20px;
   padding: 10px;   
 }
 #bluebox-author {
@@ -715,6 +718,7 @@ height: 174.27px;
     height: 423px;
 }
 .biography h2{
+  height: 62px;
     font-size: 26px;
     text-align: left;
 }
