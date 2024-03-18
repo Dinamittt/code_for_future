@@ -116,7 +116,7 @@ h2 {
 }
 
 .course_duration{ 
-  font-family: "Roboto Slab", serif; 
+  font-family: "Roboto Slab"; 
   display: flex; 
   padding: 0px 0px 60px 0px;
   height: 400px; 
@@ -161,7 +161,6 @@ h2 {
 }
 
 .what-to-learn {
-  width: 45.9vw; /*662px*/
   font-family: "Roboto";
   font-weight: 400;
   font-size: 1.6vw;/*24px*/
@@ -418,7 +417,7 @@ footer p{
   width: 86px; 
 } 
 .course_duration{
-  width: 87%;
+  width: 80%;
   height: 200px;
 }  
   
@@ -567,17 +566,21 @@ footer article{
   height: 300px;
 }
 .how-to-watch-movie h1{
-  width: 300px;
-  height: 110.04px;
-  font-size: 37px;
-  margin-top: 20px;
-  line-height: 46.64px;
+    width: 100%;
+    height: 110.04px;
+    font-size: 37px;
+    margin-top: 20px;
+    line-height: 46.64px;
 }
 .how-to-watch-movie p{
   width: 212.4px;
   height: 28.96px;
   font-size: 10px;
   line-height: 15px;
+}
+.producer {
+  display: flex;
+  justify-content: flex-end;
 }
 .how-to-watch-movie img{
   width:141.68px;
@@ -590,8 +593,8 @@ footer article{
   height: 93.19px;
   font-size: 11px;
   line-height: 14.3px;
-  margin: 70px 0px 50px 20px;
-  padding: 10px;   
+  margin: 50px auto;
+  padding: 10px; 
 }
 #bluebox-author {
   font-size: 10px; 
@@ -604,17 +607,17 @@ footer article{
   height: 400px;
 }
 .about-course p{
-font-size: 12px;
-line-height: 18px;
-width: 300.47px;
-height: 174.27px;
+  font-size: 12px;
+  line-height: 18px;
+  width: 95%;
+  height: 174.27px;
 }
 
 .about-course img{
   width: 181.86px;
   height: 182.44px;
-  margin: 20px 0 0 100px;
-  
+  margin-top: 40px;
+  margin-left: 40px;
   
 }
 .big_cameraman img{ 
@@ -630,6 +633,7 @@ height: 174.27px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start; 
+  margin: 9 auto;
 } 
 .task_table h4{ 
   font-size: 12px; 
@@ -666,7 +670,6 @@ height: 174.27px;
   }
   
   .what-to-learn {
-    width: 299px;
     font-size: 12px;
     line-height: 18px;
     margin-top: 20px;
