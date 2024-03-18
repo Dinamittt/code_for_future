@@ -13,7 +13,7 @@
 }
 
 h2 {
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab";
   font-size: 55px;
   font-weight: 700;
   line-height: 55.76px;
@@ -58,7 +58,7 @@ h2 {
   font-size: 5.5vw;/*80px*/
   margin-top: 30px;
   line-height: 5.6vw;/*81.11px*/
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab";
 }
 .how-to-watch-movie p{
   width: 28.75vw;/*414px*/
@@ -79,7 +79,7 @@ h2 {
   font-size: 25px;
   line-height: 32.5px;
   font-weight: 400;
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab";
   padding: 20px;   
   margin: 10px auto 160px;
 }
@@ -334,7 +334,7 @@ footer article{
   top: 150px;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1279) {
+@media screen and (min-width: 992px) and (max-width: 1279px) {
   h2 {
     font-size: 32px;
     line-height: 32.44px;
@@ -647,7 +647,7 @@ height: 174.27px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start; 
-  margin: 9 auto;/*0?*/
+  margin: 0 auto;/*9?*/
 } 
 .task_table h4{ 
   font-size: 12px; 
